@@ -1,8 +1,8 @@
 {
-  "captured_at_utc": "2026-02-28T14:02:25.138845+00:00",
+  "captured_at_utc": "2026-02-28T14:23:55.036823+00:00",
   "data_path": "/mnt/nas02/Dataset/suite2p/demo",
   "file_name": "file_00002_00001.tif",
-  "run_dir": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T140155Z",
+  "run_dir": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T142325Z",
   "device": "cpu",
   "db": {
     "data_path": [
@@ -24,8 +24,8 @@
     "file_list": [
       "file_00002_00001.tif"
     ],
-    "save_path0": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T140155Z",
-    "fast_disk": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T140155Z",
+    "save_path0": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T142325Z",
+    "fast_disk": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T142325Z",
     "save_folder": "suite2p",
     "h5py_key": "data",
     "nwb_driver": "",
