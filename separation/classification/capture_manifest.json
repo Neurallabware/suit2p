@@ -1,0 +1,102 @@
+{
+  "captured_at_utc": "2026-02-28T14:02:25.138845+00:00",
+  "data_path": "/mnt/nas02/Dataset/suite2p/demo",
+  "file_name": "file_00002_00001.tif",
+  "run_dir": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T140155Z",
+  "device": "cpu",
+  "db": {
+    "data_path": [
+      "/mnt/nas02/Dataset/suite2p/demo"
+    ],
+    "look_one_level_down": false,
+    "input_format": "tif",
+    "keep_movie_raw": true,
+    "nplanes": 1,
+    "nrois": 1,
+    "nchannels": 1,
+    "swap_order": false,
+    "functional_chan": 1,
+    "lines": null,
+    "dy": null,
+    "dx": null,
+    "ignore_flyback": null,
+    "subfolders": null,
+    "file_list": [
+      "file_00002_00001.tif"
+    ],
+    "save_path0": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T140155Z",
+    "fast_disk": "/mnt/nas02/Dataset/suite2p/output/classification_capture/run_20260228T140155Z",
+    "save_folder": "suite2p",
+    "h5py_key": "data",
+    "nwb_driver": "",
+    "nwb_series": "",
+    "force_sktiff": false,
+    "bruker_bidirectional": false,
+    "batch_size": 500
+  },
+  "classification_settings": {
+    "classifier_path": null,
+    "use_builtin_classifier": false,
+    "preclassify": 0.0
+  },
+  "detection_settings": {
+    "algorithm": "sparsery",
+    "denoise": false,
+    "block_size": [
+      64,
+      64
+    ],
+    "nbins": 5000,
+    "bin_size": null,
+    "highpass_time": 100,
+    "threshold_scaling": 1.0,
+    "npix_norm_min": 0.0,
+    "npix_norm_max": 100,
+    "max_overlap": 0.75,
+    "soma_crop": true,
+    "chan2_threshold": 0.25,
+    "cellpose_chan2": false,
+    "sparsery_settings": {
+      "highpass_neuropil": 25,
+      "max_ROIs": 5000,
+      "spatial_scale": 0,
+      "active_percentile": 0.0
+    },
+    "sourcery_settings": {
+      "connected": true,
+      "max_iterations": 20,
+      "smooth_masks": false
+    },
+    "cellpose_settings": {
+      "cellpose_model": "cpsam",
+      "img": "max_proj / meanImg",
+      "highpass_spatial": 0,
+      "flow_threshold": 0.4,
+      "cellprob_threshold": 0.0,
+      "params": null,
+      "params_chan2": null
+    }
+  },
+  "extraction_settings": {
+    "snr_threshold": 0.0,
+    "batch_size": 500,
+    "neuropil_extract": true,
+    "neuropil_coefficient": 0.7,
+    "inner_neuropil_radius": 2,
+    "min_neuropil_pixels": 350,
+    "lam_percentile": 50.0,
+    "allow_overlap": false,
+    "circular_neuropil": false
+  },
+  "settings_run": {
+    "do_registration": 1,
+    "do_regmetrics": false,
+    "do_detection": true,
+    "do_deconvolution": false,
+    "multiplane_parallel": false
+  },
+  "artifacts": {
+    "test_input": "/home/yz/suite2p/separation/classification/test_input.pkl",
+    "test_output": "/home/yz/suite2p/separation/classification/test_output.pkl"
+  }
+}
