@@ -1,0 +1,72 @@
+{
+  "captured_at_utc": "2026-02-13T03:03:05.846243+00:00",
+  "data_path": "/mnt/nas02/Dataset/suite2p/demo",
+  "file_name": "file_00002_00001.tif",
+  "run_dir": "/mnt/nas02/Dataset/suite2p/output/registration_capture/run_20260213T030243Z",
+  "device": "cpu",
+  "db": {
+    "data_path": [
+      "/mnt/nas02/Dataset/suite2p/demo"
+    ],
+    "look_one_level_down": false,
+    "input_format": "tif",
+    "keep_movie_raw": true,
+    "nplanes": 1,
+    "nrois": 1,
+    "nchannels": 1,
+    "swap_order": false,
+    "functional_chan": 1,
+    "lines": null,
+    "dy": null,
+    "dx": null,
+    "ignore_flyback": null,
+    "subfolders": null,
+    "file_list": [
+      "file_00002_00001.tif"
+    ],
+    "save_path0": "/mnt/nas02/Dataset/suite2p/output/registration_capture/run_20260213T030243Z",
+    "fast_disk": "/mnt/nas02/Dataset/suite2p/output/registration_capture/run_20260213T030243Z",
+    "save_folder": "suite2p",
+    "h5py_key": "data",
+    "nwb_driver": "",
+    "nwb_series": "",
+    "force_sktiff": false,
+    "bruker_bidirectional": false,
+    "batch_size": 500
+  },
+  "registration_settings": {
+    "align_by_chan2": false,
+    "nimg_init": 400,
+    "maxregshift": 0.1,
+    "do_bidiphase": false,
+    "bidiphase": 0.0,
+    "batch_size": 100,
+    "nonrigid": true,
+    "maxregshiftNR": 5,
+    "block_size": [
+      128,
+      128
+    ],
+    "smooth_sigma_time": 0,
+    "smooth_sigma": 1.15,
+    "spatial_taper": 3.45,
+    "th_badframes": 1.0,
+    "norm_frames": true,
+    "snr_thresh": 1.2,
+    "subpixel": 10,
+    "two_step_registration": false,
+    "reg_tif": false,
+    "reg_tif_chan2": false
+  },
+  "settings_run": {
+    "do_registration": 1,
+    "do_regmetrics": false,
+    "do_detection": false,
+    "do_deconvolution": false,
+    "multiplane_parallel": false
+  },
+  "artifacts": {
+    "test_input": "/home/yz/suite2p/separation/registration/test_input.pkl",
+    "test_output": "/home/yz/suite2p/separation/registration/test_output.pkl"
+  }
+}
